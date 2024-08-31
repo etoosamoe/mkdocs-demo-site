@@ -39,7 +39,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: 
       name: mkdocs-prod
-      url: https://etoosamoe.github.io/mkdocs-demo-site
+      url: https://<username>.github.io/m<repo_name>
     steps:
       - uses: actions/checkout@v4
       - name: Configure Git Credentials
