@@ -4,3 +4,8 @@ theme:
 site_url: https://etoosamoe.github.io/mkdocs-demo-site
 site_author: Yuriy Semyenkov
 copyright: Yuriy Semyenkov, etogeek, 2024
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences

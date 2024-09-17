@@ -1,5 +1,8 @@
 # How to create MkDocs site on Github Actions (GHA)
 
+!!! note
+    This is the demo repository
+
 Create a repo in Github. Note that the name of the repo will be in your Github Pages URL.
 
 Clone the repo to your computer and change your dir to it.
