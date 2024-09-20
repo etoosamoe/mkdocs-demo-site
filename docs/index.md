@@ -1,4 +1,4 @@
-# How to create MkDocs site on Github Actions (GHA)
+# How to create MkDocs site on Github Pages (with GHA)
 
 !!! note
     This is the demo repository
@@ -12,6 +12,7 @@ Add `mkdocs` or `mkdocs-material` to `requirements.txt`:
 ```
 mkdocs-material
 ```
+
 
 ```
 python3 -m venv .venv
@@ -71,8 +72,6 @@ git push origin master
 ```
 
 Set up the Github repo:
-Settings -> Pages -> Source: Deploy from a branch
-
-It is possible that you will need to add another commit to trigger the workflow again.
+Settings -> Pages -> Source: Deploy from a branch -> Choose `gh-pages` branch.
 
 Visit your Pages.
